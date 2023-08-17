@@ -1,71 +1,72 @@
-# Getting Started with Create React App
+# Firnas Aero - Garbage Removal Location Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Firnas Aero is a web application designed to track and manage garbage removal locations using OpenStreetMap integration. With the ability to upload images and select precise locations on the map, this app aims to facilitate efficient garbage disposal operations.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **OpenStreetMap Integration**: The app utilizes OpenStreetMap to provide a detailed and interactive map interface for selecting locations.
 
-### `npm start`
+- **Firebase Authentication**: User authentication is handled through Firebase Authentication, ensuring secure access to the platform.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Firestore Database**: Firebase Firestore is employed as the database solution, allowing seamless storage and retrieval of garbage disposal location data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Firebase Storage for Images**: Images associated with each garbage disposal location are stored using Firebase Storage, ensuring reliable and scalable image storage.
 
-### `npm test`
+## How to Use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Sign Up/Log In**: Users need to sign up or log in to their accounts using Firebase Authentication credentials.
 
-### `npm run build`
+2. **Upload an Image**: Once logged in, users can upload images of the garbage disposal sites along with relevant details.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Select Location**: Users can select the exact disposal site location on the OpenStreetMap by clicking on the map interface.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Submit**: After selecting the location and uploading the image, users can submit the information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **View and Manage**: Users can view all submitted garbage disposal locations on the map. They can also edit or remove their submissions as needed.
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot 1](https://res.cloudinary.com/dvvzlzude/image/upload/v1692265979/firnas1_yyba5k.png)
+*Caption for Screenshot 1.*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot 2](https://res.cloudinary.com/dvvzlzude/image/upload/v1692265943/firnas2_nbbzkl.png)
+*Caption for Screenshot 2.*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot 3](https://res.cloudinary.com/dvvzlzude/image/upload/v1692265942/firnas3_tfvrv4.png)
+*Caption for Screenshot 3.*
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+Follow these steps to get the project up and running locally:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone this repository.
+2. Set up your Firebase project and obtain the necessary configuration.
+3. Replace the Firebase configuration in the `src/firebase.js` file.
+4. Install dependencies using `npm install`.
+5. Run the development server with `npm start`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
 
-### Code Splitting
+- HTML, CSS, JavaScript
+- React
+- Firebase Authentication
+- Firebase Firestore
+- Firebase Storage
+- OpenStreetMap API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgements
 
-### Making a Progressive Web App
+- OpenStreetMap for providing map data.
+- Firebase for authentication, database, and storage solutions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+**Note:** This project was built as a prototype within a short timeframe of 4 hours. It may have limitations and areas for further enhancement.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Firnas_Aero" 
+Feel free to contact the author at [pandeysandeep1190@gmail.com](mailto:your.email@example.com) for any questions or feedback.

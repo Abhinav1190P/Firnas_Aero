@@ -7,12 +7,12 @@ import { getStorage } from 'firebase/storage'
 // Your web app's Firebase configuration
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyCkmDI4D_0s8tGxE4GLsEzhe0Hb2l_G-6A',
-  authDomain: 'firnas-aero-787a5.firebaseapp.com',
-  projectId: 'firnas-aero-787a5',
-  storageBucket: 'firnas-aero-787a5.appspot.com',
-  messagingSenderId: '828055687156',
-  appId: '1:828055687156:web:1c5d0835f08b4b4b4a33a1'
+  apiKey: process.env.FIREBASE_APIKEY,
+  authDomain: process.env.FIREBASE_AUTHDOMAIN,
+  projectId: process.env.FIREBASE_PROJECTID,
+  storageBucket: process.env.FIREBASE_STORAGEBUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSANGER_ID,
+  appId: process.env.FIREBASE_APPID
 };
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
