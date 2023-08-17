@@ -30,13 +30,13 @@ Firnas Aero is a web application designed to track and manage garbage removal lo
 ## Screenshots
 
 ![Screenshot 1](https://res.cloudinary.com/dvvzlzude/image/upload/v1692265979/firnas1_yyba5k.png)
-*Caption for Screenshot 1.*
+*Home page login page integrated with Firebase auth*
 
 ![Screenshot 2](https://res.cloudinary.com/dvvzlzude/image/upload/v1692265943/firnas2_nbbzkl.png)
-*Caption for Screenshot 2.*
+*Upload area photo section using Firebase Storage solution*
 
 ![Screenshot 3](https://res.cloudinary.com/dvvzlzude/image/upload/v1692265942/firnas3_tfvrv4.png)
-*Caption for Screenshot 3.*
+*Track location using OpenStreetMap centered at Al-Madina, Saudi Arabia*
 
 ## Getting Started
 
