@@ -1,5 +1,8 @@
 # Firnas Aero - Garbage Removal Location Tracker
 
+![Firnas AeroLogo](https://res.cloudinary.com/dvvzlzude/image/upload/v1692266220/logo_fgr41s.png)
+
+
 Firnas Aero is a web application designed to track and manage garbage removal locations using OpenStreetMap integration. With the ability to upload images and select precise locations on the map, this app aims to facilitate efficient garbage disposal operations.
 
 ## Features
